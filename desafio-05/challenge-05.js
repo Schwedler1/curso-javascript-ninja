@@ -2,16 +2,27 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-// ?
+// ? value
+[ 1, 'true', 'false', 10, null ]
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
-*/
+*/function arr ( x = 1) {
+... return [1];
+... }
+undefined
+> arr()
+[ 1 ]
 // ?
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
-*/
+*/function arr () {
+... return true;
+... }
+undefined
+> arr()
+true
 // ?
 
 /*
@@ -24,13 +35,17 @@ segundo parâmetro.
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
-*/
+*/var value = [ 'true' , 1 , null , 'false', 10 ];
+undefined
+> value
+[ 'true', 1, null, 'false', 10 ]
 // ?
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
-*/
+*/arr()
+[ 'true', 1, null, 'false', 10
 // ?
 
 /*
@@ -46,12 +61,18 @@ propriedades:
 - A função deve retornar o objeto referente ao livro passado por parâmetro.
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
-*/
+*/function livro (harrypotter) {
+... var livro1 = {quantidadedepaginas: 30 , autor: harry , editora: 'presenca'};
+... var livro2caçadoresdepipa = {quantidadedepaginas: 50 , autor:'jhonny' , editora: 'low'};
+... var livro3godofwar = {quantidadedepaginas: 100 , autor: 'kratos' , editora: 'sony'};
+... }
 // ?
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
-*/
+*/... var livro1 = {quantidadedepaginas: 30 , autor: harry , editora: 'presenca'};
+... var livro2caçadoresdepipa = {quantidadedepaginas: 50 , autor:'jhonny' , editora: 'low'};
+... var livro3godofwar = {quantidadedepaginas: 100 , autor: 'kratos' , editora: 'sony'};
 // ?
 
 /*
